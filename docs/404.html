@@ -1,17 +1,14 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <script>
-      const segmentCount = 1;
-      const path = window.location.pathname
-        .split("/")
-        .slice(0, 1 + segmentCount)
-        .join("/");
-      const rest = window.location.pathname.slice(path.length);
-      sessionStorage.redirect = rest + window.location.search + window.location.hash;
-      window.location.replace(path + "/");
-    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Zheleu Yergazy's personal blog about web development." />
+    <title>Zheleu Yergazy | Blog</title>
+    <script type="module" crossorigin src="/iwamad-sis2-blog/assets/index-CxvlcQuU.js"></script>
+    <link rel="stylesheet" crossorigin href="/iwamad-sis2-blog/assets/index-5dnuo8df.css">
   </head>
-  <body></body>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
